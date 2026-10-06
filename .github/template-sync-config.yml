@@ -23,6 +23,30 @@ group:
       openmrs/openmrs-esm-user-dashboard-widgets
       openmrs/openmrs-esm-user-onboarding
 
+  - files:
+      - source: templates/release-frontend.yml
+        dest: .github/workflows/release-frontend.yml
+    repos: |
+      openmrs/openmrs-esm-admin-tools
+      openmrs/openmrs-esm-billing-app
+      openmrs/openmrs-esm-chartsearchai
+      openmrs/openmrs-esm-cohortbuilder-app
+      openmrs/openmrs-esm-core
+      openmrs/openmrs-esm-dispensing-app
+      openmrs/openmrs-esm-draw-app
+      openmrs/openmrs-esm-fast-data-entry-app
+      openmrs/openmrs-esm-form-builder
+      openmrs/openmrs-esm-form-engine-lib
+      openmrs/openmrs-esm-laboratory-app
+      openmrs/openmrs-esm-patient-chart
+      openmrs/openmrs-esm-patient-communications
+      openmrs/openmrs-esm-patient-management
+      openmrs/openmrs-esm-report-builder
+      openmrs/openmrs-esm-stock-management
+      openmrs/openmrs-esm-system-status
+      openmrs/openmrs-esm-template-app
+      openmrs/openmrs-esm-user-dashboard-widgets
+      openmrs/openmrs-esm-user-onboarding
   # OpenMRS repositories that have been active within roughly the last 24 months.
   # SECURITY.md is synced to these repositories to keep the security policy consistent
   # across actively maintained OpenMRS projects.
